@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textiles Lena</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .location {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #111;
+      color: #aaa;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Textiles Lena</h1>
+  <p>Venta de Trajes Típicos en Guatemala</p>
+</header>
+
+<div class="container">
+
+  <h2>Galería</h2>
+  <div class="gallery">
+    <!-- Reemplaza estas imágenes por las tuyas -->
+    <img src="https://via.placeholder.com/400x300" alt="Traje 1">
+    <img src="https://via.placeholder.com/400x300" alt="Traje 2">
+    <img src="https://via.placeholder.com/400x300" alt="Traje 3">
+    <img src="https://via.placeholder.com/400x300" alt="Traje 4">
+  </div>
+
+  <div class="contact">
+    <h2>Contacto</h2>
+    <p>Escríbenos por WhatsApp para pedidos o información</p>
+
+    <!-- Cambia el número por el tuyo -->
+    <a class="btn" href="https://wa.me/50200000000" target="_blank">
+      Enviar mensaje por WhatsApp
+    </a>
+  </div>
+
+  <div class="location">
+    <h2>Ubicación</h2>
+    <p>Guatemala</p>
+
+    <!-- Puedes cambiar el mapa por tu ubicación exacta -->
+    <iframe 
+      src="https://www.google.com/maps?q=Guatemala&output=embed">
+    </iframe>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Textiles Lena - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
